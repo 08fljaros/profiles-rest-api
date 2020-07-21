@@ -8,9 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A49B6789-20AD-4AEB-9C49-0A4E9828EB76}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\.gitignore = ..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\.gitignore
-		..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\LICENSE.txt = ..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\LICENSE.txt
-		..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\README.md.txt = ..\..\..\OneDrive - O365-Restaurant.com\Desktop\Notes\README.md.txt
-		DjangoBackBottom\Vagrantfile = DjangoBackBottom\Vagrantfile
 	EndProjectSection
 EndProject
 Global
