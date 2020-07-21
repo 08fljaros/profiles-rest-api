@@ -39,12 +39,24 @@
     <Compile Include="DjangoBackBottom\settings.py" />
     <Compile Include="DjangoBackBottom\urls.py" />
     <Compile Include="DjangoBackBottom\wsgi.py" />
+    <Compile Include="profiles_api\admin.py" />
+    <Compile Include="profiles_api\apps.py" />
+    <Compile Include="profiles_api\migrations\__init__.py" />
+    <Compile Include="profiles_api\models.py" />
+    <Compile Include="profiles_api\tests.py" />
+    <Compile Include="profiles_api\views.py" />
+    <Compile Include="profiles_api\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="profiles_api\templates\profiles_api\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoBackBottom\" />
+    <Folder Include="profiles_api\" />
+    <Folder Include="profiles_api\migrations\" />
+    <Folder Include="profiles_api\templates\" />
+    <Folder Include="profiles_api\templates\profiles_api\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
